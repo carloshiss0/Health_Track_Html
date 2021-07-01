@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap-5.0.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/stylebootstrap.css" rel="stylesheet">
+    <meta name="description" content="EXEMPLO -  BOOTSTRAP">
+    <script src="bootstrap-5.0.1-dist/js/bootstrap.bundle.min.js"></script>
+    <title>Health Track - Cadastro</title>
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Sobre.html">Health Track</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Usuário
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="Cadastrar.html">Perfil</a></li>
+                            <li><a class="dropdown-item" href="Biotipo.html">Biotipo</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Index.html">Login</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Nome de Usuário
+                            Logado</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="container" class="container-fluid">
+
+        <div id="mid" class="row align-items-center">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <form id="login" class="row g-3" action="Index.html">
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">E-mail:</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="seu@email.alguma.coisa">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Senha:</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Endereço:</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Rua nome, numero 1234">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Complemento:</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Casa, Apartamento + Referencia: Portão vermelho">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">Cidade:</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label">Estado:</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>SP</option>
+                            <option>RJ</option>
+                            <option>RS</option>
+                            <option>ES</option>
+                            <option>BH</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputZip" class="form-label">Codigo Postal:</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Declaro que li e aceito os termos de contrato
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-outline-light btn-lg">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+
+        
+    </div>
+</body>

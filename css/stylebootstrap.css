@@ -1,0 +1,85 @@
+#container {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(94, 94, 94, 0.87);
+
+}
+.card-body{
+  color: rgb(148, 108, 7);
+}
+html,
+body {
+  min-height: 100%;
+  background-image: url("/images/Academia.jpg");
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+#login {
+  border-radius: 10px;
+  color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  height: 98%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.carousel-item {
+  float: none;
+  width: 80%;
+  margin: auto;
+  align-content: center;
+}
+
+
+
+#end {
+
+  height: 19%;
+}
+
+
+#mid {
+  min-height: 900px;
+  height: 70%;
+}
+
+#inicio {
+  
+  color: azure;
+  background-color: rgba(94, 94, 94, 0.87);
+  border-radius: 10px;
+  text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+  background-position: center;
+  background-image: url("/images/inicio.png");
+
+  padding-bottom: 4%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+
+
+header,
+main,
+footer {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 1px solid #c0c0c0;
+  font-size: 50px;
+  padding: 1% 0;
+  text-align: center;
+}
+
+main {
+  background-color: white;
+
+}

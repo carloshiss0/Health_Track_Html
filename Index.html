@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <!-- Bootstrap CSS -->
+  <link href="bootstrap-5.0.1-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/stylebootstrap.css" rel="stylesheet">
+  <meta name="description" content="EXEMPLO -  BOOTSTRAP">
+  <script src="bootstrap-5.0.1-dist/js/bootstrap.bundle.min.js"></script>
+  <title>Health Track - Login</title>
+
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Sobre.html">Health Track</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Usuário
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="Cadastrar.html">Perfil</a></li>
+              <li><a class="dropdown-item" href="Biotipo.html">Biotipo</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="Index.html">Login</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Não Logado</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="container" class="container-fluid">
+    <!-- <div id="top" class="row">
+      
+      
+
+      <div class="col-12">
+        <header id="inicio">Health Track</header>
+
+      </div>
+      
+    </div> -->
+    <div id="mid" class="row align-items-center">
+
+      <div class="col-2"></div>
+      <div class="col-8">
+        <form id="login" action="Logged.html">
+          <div class="row mb-3">
+            <H1>Login</H1>
+          </div>
+          <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3">
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-sm-10 offset-sm-2">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                  Mantenha-me Logado
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-sm-10 offset-sm-2">
+              <a href="Cadastrar.html" class="link-warning">Cadastrar novo Usuário</a>
+
+            </div>
+          </div>
+          <button type="submit" class="btn btn-outline-light btn-lg">Login</button>
+        </form>
+      </div>
+      <div class="col-2"></div>
+    </div>
+
+
+   
+  </div>
+</body>
